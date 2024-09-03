@@ -1,0 +1,32 @@
+.div-btn-cust{
+    background-color:#3291e6;
+    color: white; 
+    width: 30%;  
+    border-radius: 20px;
+    border: none;
+    box-shadow: 2px 2px 2px 2px rgb(177, 177, 238);
+    margin: 0 auto;
+}
+.btn-cust{
+    color: white; 
+    width: 100%;  
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: none;
+    transition: 0.3s;
+
+}
+.icon-box:hover .div-btn-cust {
+    background-color: white;
+    box-shadow: none;
+    
+
+}
+.icon-box:hover .div-btn-cust button {
+    color: #3291e6;
+
+}
+.btn-cust:hover{
+    box-shadow: 2px 2px 2px 2px rgb(54, 54, 54);
+}

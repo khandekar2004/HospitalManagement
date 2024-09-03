@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <?php include('./hms/include/connection.php'); ?>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link href="logo.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="assets/css/baguetteBox.min.css">
+    <link rel="stylesheet" href="assets/css/vanilla-zoom.min.css">
+    <link rel="manifest" href="manifest.json">
+    <style>
+        
+    </style>
+
+</head>
+
+
+
+<body>
+    
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
+        <div class="container"><a class="navbar-brand logo" href="#"><img height="30px" src="logo.png"> HMS</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+                    <?php ?>
+                    <li class="nav-item"><a class="nav-link" href="#service">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Aboutus">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle btn btn-outline-success" aria-expanded="false" data-bs-toggle="dropdown" >Login</a>
+                    <div class="dropdown-menu"><a class="dropdown-item" href="#">Admin</a><a class="dropdown-item" href="#">Patient/User<br /></a><a class="dropdown-item" href="#">Doctor</a><a class="dropdown-item" href="#">Lab</a><a class="dropdown-item" href="#">Staff</a></div>
+</li>
+                    <li class="nav-item"><a class="btn btn-success" href="userLogin.php">Book Appointment</a></li>
+                    
+                </ul>
+                
+            </div>
+
+        </div>
+    </nav>
+   
+    <main class="page landing-page">
+        <section class="clean-block clean-hero" style="background-image: url(&quot;assets/img/scenery/slider_2.jpg&quot;);color: rgba(28, 200, 138, 0.85);">
+            <div class="text">
+                <h2>Hospital Management System</h2>
+                <p>Get Better Life With Better Care!</p><button class="btn btn-light btn-outline-success btn-lg" type="button">BOOK APPOINTMENT</button>
+            </div>
+        </section>
+       
+
+        <section id="Aboutus" class="clean-block clean-info dark">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-success">Info</h2>
+                    <p></p>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-md-6"><img class="img-thumbnail" src="assets/img/new/why.jpg"></div>
+                    <div class="col-md-6">
+                        <h3>About Our Hospital</h3>
+                        <div class="getting-started-info">
+                            <p>We are a leading healthcare provider dedicated to delivering high-quality medical care to our patients. Our hospital is staffed with a team of experienced and compassionate healthcare professionals who are committed to ensuring that our patients receive the best possible care.
+
+                                At our hospital, we offer a comprehensive range of medical services, including diagnosis, treatment, and prevention of illnesses and injuries. Our state-of-the-art facilities and advanced medical technologies enable us to provide accurate diagnoses and effective treatments to our patients</p>
+                </div>
+            </div>
+        </section>
+        
+        <?php
+        
+        ?>
+
+        <section id="Services" class="clean-block features">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-success">Our Key Features</h2>
+                    <p>Take a look at some of our key features</p>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-5 feature-box"><i class="icon-graph icon"  style="color:green;"></i>
+                        <h4>High Quality treatments</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
+                    </div>
+                    <div class="col-md-5 feature-box"><i class="icon-heart icon"  style="color:green;"></i>
+                        <h4>Cardiology</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
+                    </div>
+                    <div class="col-md-5 feature-box"><i class="icon-bone icon"  style="color:green;"></i>
+                        <h4>Orthopaedic</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
+                    </div>
+                    <div class="col-md-5 feature-box"><i class="icon-refresh icon"  style="color:green;"></i>
+                        <h4>Neurologist</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Gallery" class="clean-block slider dark">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-success">Slider</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
+                </div>
+                <div class="carousel slide" data-bs-ride="carousel" id="carousel-1">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active"><img class="w-100 d-block" src="assets/img/scenery/slider_1.jpg" alt="Slide Image"></div>
+                        <div class="carousel-item"><img class="w-100 d-block" src="assets/img/scenery/slider_2.jpg" alt="Slide Image"></div>
+                        <div class="carousel-item"><img class="w-100 d-block" src="assets/img/scenery/slider_3.jpg" alt="Slide Image"></div>
+                    </div>
+                    <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a></div>
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#carousel-1" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#carousel-1" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#carousel-1" data-bs-slide-to="2"></li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+        <section class="clean-block about-us">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-success">Our Doctor</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="card text-center clean-card"><img class="card-img-top w-100 d-block" src="assets/img/avatars/doctors-1.jpg">
+                            <div class="card-body info">
+                                <h4 class="card-title">John Smith</h4>
+                                <p class="card-text">B.H.M.S</p>
+                                <div class="icons"><a href="#"><i class="icon-social-facebook"  style="color:green;"></i></a><a href="#"><i class="icon-social-instagram"  style="color:green;"></i></a><a href="#"><i class="icon-social-twitter"  style="color:green;"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="card text-center clean-card"><img class="card-img-top w-100 d-block" src="assets/img/avatars/doctors-2.jpg">
+                            <div class="card-body info">
+                                <h4 class="card-title">Robert Downturn</h4>
+                                <p class="card-text">M.B.B.S</p>
+                                <div class="icons"><a href="#"><i class="icon-social-facebook"   style="color:green;"></i></a><a href="#"><i class="icon-social-instagram"  style="color:green;"></i></a><a href="#"><i class="icon-social-twitter"  style="color:green;"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="card text-center clean-card"><img class="card-img-top w-100 d-block" src="assets/img/avatars/doctors-3.jpg">
+                            <div class="card-body info">
+                                <h4 class="card-title">Ally Sanders</h4>
+                                <p class="card-text">B.U.M.S, M.S</p>
+                                <div class="icons"><a href="#"><i class="icon-social-facebook" style="color:green;"></i></a><a href="#"><i class="icon-social-instagram"  style="color:green;"></i></a><a href="#"><i class="icon-social-twitter"  style="color:green;"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sign up</a></li>
+                        <li><a href="#">Downloads</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>About us</h5>
+                    <ul>
+                        <li><a href="#">Company Information</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Help desk</a></li>
+                        <li><a href="#">Forums</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Legal</h5>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2023 Copyright Text</p>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/baguetteBox.min.js"></script>
+    <script src="assets/js/vanilla-zoom.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
+
+</html>
